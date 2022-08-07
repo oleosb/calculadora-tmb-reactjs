@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+
+*,
+*::before,
+*::after{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+html,
+select{
+          font-family: 'Oswald', sans-serif;
+}
+
+body{
+          width: 100vw;
+          overflow-x: hidden;
+}
+
+.container{
+          width: min(80%, 700px);
+          margin: 30px auto 0 auto;
+}
+
+.title{
+          font-size: 25px;
+          font-weight: 600;
+          text-transform: uppercase;
+}
+
+.subtitle{
+          font-size: 20px;
+          font-weight: 600;
+          margin: 0 0 15px 0;
+}
+
+.abt .content > p{
+          font-size: 17px;
+          font-weight: 300;
+          text-align: justify;
+          margin: 0 0 30px 0;
+}
+
+.abt .content .subtitle{
+          margin: 0;
+}
+
+.graph{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 15px;
+}
+
+.met{
+          width: min(100%, 250px);
+          margin: 30px 0 0 0;
+}
+
+.gLegend{
+          font-size: 17px;
+          font-weight: 300;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px;
+}
+
+.gLegend > p{
+          display: inline-flex;
+          align-items: center;
+          gap: 5px;
+}
+
+.gLegend p:first-child div{
+          width: 10px;
+          height: 10px;
+          background-color: #76B947;
+}
+
+.gLegend p:nth-child(2) div{
+          width: 10px;
+          height: 10px;
+          background-color: #2E8BC0;
+}
+
+.gLegend p:nth-child(3) div{
+          width: 10px;
+          height: 10px;
+          background-color: #868B8E;
+}
+
+.calc .content{
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 auto;
+          justify-content: space-between;
+          gap: 15px;
+}
+
+.ht{
+          margin-bottom: 30px;
+}
+
+.tmb .content{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px;
+          justify-content: center;
+}
+
+.ndcimc{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px;
+          margin: 30px 0 0 0;
+}
+
+.ndcimc ul{
+          margin: 0 auto 0 auto;
+}
+
+.ndcimc li{
+          font-size: 17px;
+          font-weight: 300;
+          margin: 0 0 0 25px;
+}
+
+@media (min-width: 426px){
+          .tmb .content{
+                    justify-content: space-between;
+          }
+
+          .ndcimc{
+                    justify-content: space-between;
+          }
+}

@@ -1,0 +1,117 @@
+.title{
+          font-size: 20px;
+          font-weight: 600;
+}
+
+.calculator{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 0 auto;
+          gap: 10px;
+          width: 100%;
+          max-width: 300px;
+}
+
+.calculator > div{
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          align-items: center;
+}
+
+.subtitle{
+          font-weight: 400;
+          font-size: 18px;
+}
+
+select{
+          font-size: 17px;
+          font-weight: 300;
+          width: fit-content;
+          height: 30px;
+          border-radius: none;
+          border: 1px solid #989898;
+          background: transparent;
+          color: #000;
+}
+
+select > option{
+          font-size: 17px;
+          font-weight: 300;
+}
+
+.radios{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 7px;
+          font-size: 17px;
+          font-weight: 300;
+          letter-spacing: .4px;
+}
+
+.radios label{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 2px;
+}
+
+.age input,
+.weight input,
+.height input{
+          height: 30px;
+          width: 115px;
+          border: 1px solid #989898;
+          background: transparent;
+          font-size: 17px;
+          font-weight: 200;
+          padding: 0 10px;
+          color: #000;
+}
+
+select:focus,
+.age input:focus,
+.weight input:focus,
+.height input:focus{
+          outline: 1px solid #000;
+}
+
+.results{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          max-width: 250px;
+          margin: 0 auto;
+}
+
+.result{
+          font-size: 40px;
+          font-weight: 700;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+}
+
+.result  span{
+          font-size: 20px;
+}
+
+.imc_unit{
+          display: flex;
+          flex-direction: column;
+}
+
+.imc_title{          
+          font-weight: 300;
+          font-size: 17px !important;
+}
+
+.desc{
+          font-weight: 300;
+          font-size: 15px;
+          letter-spacing: .2px;
+}

@@ -1,0 +1,34 @@
+.table {
+          border:1px solid #989898;
+          border-collapse:collapse;
+          padding:5px;
+          font-size: 17px;
+          margin: 0 auto;
+          color: #000;
+}
+
+.table th {
+          border: 1px solid #989898;
+          background:#F0F0F0;
+          font-weight: 400;
+}
+.table td {
+          font-weight: 300;
+          border: 1px solid #989898;
+}
+
+.table td,
+.table th{
+          padding: 5px 10px;
+}
+
+.desc{
+          font-size: 17px;
+          font-weight: 300;
+          max-width: 285px;
+          margin: 5px auto 0 auto;
+}
+
+.desc strong{
+          font-weight: 400;
+}
