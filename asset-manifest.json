@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/calculadora-tmb-reactjs/static/css/main.d9bc54ca.css",
+    "main.js": "/calculadora-tmb-reactjs/static/js/main.c2d32787.js",
+    "index.html": "/calculadora-tmb-reactjs/index.html",
+    "main.d9bc54ca.css.map": "/calculadora-tmb-reactjs/static/css/main.d9bc54ca.css.map",
+    "main.c2d32787.js.map": "/calculadora-tmb-reactjs/static/js/main.c2d32787.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9bc54ca.css",
+    "static/js/main.c2d32787.js"
+  ]
+}
